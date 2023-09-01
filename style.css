@@ -37,6 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  /* position: fixed;     */
 }
 
 .nav-links {
@@ -148,7 +149,8 @@ a:hover {
 
 /* SECTIONS */
 
-section {
+/* #contact, #projects, #profile, #experience, #about{ */
+section{
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -365,7 +367,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
@@ -423,8 +425,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
+  height: 1px;
 }
 
 footer p {
